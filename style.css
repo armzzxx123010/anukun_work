@@ -146,7 +146,7 @@ nav a:hover {
 
 .row {
     margin-top: 80px;
-    width: 80%;
+    width: 100%;
     max-width: 1170px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -155,6 +155,7 @@ nav a:hover {
 
 .row .left {
     overflow: hidden;
+    
 }
 
 .row .left {
@@ -164,6 +165,7 @@ nav a:hover {
 }
 
 .row .right {
+    
     display: flex;
     align-items: center;
 }
@@ -187,7 +189,7 @@ nav a:hover {
 @media (max-width : 768px) {
     .row {
         width: 80%;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -256,8 +258,20 @@ nav a:hover {
     line-height: 1.5;
     color: #5e5e5e;
 }   
-#cf1{
-    margin-top: 70px;
-    padding-top: 50px;
-    
+.cf1{
+    border-radius: 50%;
+}
+.btn4 {
+    margin-right: 30px;
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding: 10px 35px;
+    border: 1px solid #18A0FB;
+    background: #18A0FB;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
