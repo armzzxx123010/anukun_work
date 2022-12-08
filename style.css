@@ -275,3 +275,49 @@ nav a:hover {
     transition: 0.8s;
     border-radius: 5px;
 }
+.container{
+    
+    width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: 0 0 5px rgba(0,0,0,0.5);
+
+}  
+.container h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.container p{
+    line-height: 1.4;
+    text-align: justify;
+}
+.btncon{
+    background: #18A0FB;
+    width: 150px;
+    height: 50px;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #18A0FB;
+}    
+.aaa1{
+    justify-self:baseline;
+    margin-left: 300px;
+    float: left;
+    
+}
+.aaa2{
+    justify-self:end;
+    margin-right: 300px;
+    float: right;
+    
+}
+.column {
+    justify-self: baseline;
+    float: left;
+    
+    width: 450px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
